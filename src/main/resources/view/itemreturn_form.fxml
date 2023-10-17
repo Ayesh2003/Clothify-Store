@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ItemReturnFormController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <AnchorPane prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <ImageView fitHeight="448.0" fitWidth="685.0" layoutY="-37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/pexels-ksenia-chernaya-3965551.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="320.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <JFXButton layoutX="525.0" layoutY="30.0" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #672411;" text="Save" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="429.0" layoutY="30.0" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #672411;" text="Clear" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </JFXButton>
+                        <TableView layoutX="23.0" layoutY="175.0" prefHeight="166.0" prefWidth="629.0">
+                          <columns>
+                            <TableColumn prefWidth="109.33331489562988" text="Item Code" />
+                            <TableColumn prefWidth="97.99996185302734" text="Description" />
+                              <TableColumn prefWidth="110.00007629394531" text="QTY" />
+                              <TableColumn minWidth="0.66668701171875" prefWidth="90.0" text="Unit Price" />
+                              <TableColumn minWidth="0.0" prefWidth="114.66665649414062" text="Data" />
+                              <TableColumn minWidth="0.0" prefWidth="106.0" text="Options" />
+                          </columns>
+                        </TableView>
+                        <JFXButton layoutX="70.0" layoutY="27.0" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #672411;" text="  " textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="25.0" fitWidth="18.0" layoutX="74.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/back.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="#fffdfd" layoutX="96.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Back">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <JFXButton layoutX="544.0" layoutY="362.0" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #672411;" text="Place Return" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </JFXButton>
+                        <Text fill="#fffefe" layoutX="38.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total  :" wrappingWidth="89.33333333333326">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fill="RED" layoutX="125.0" layoutY="390.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs.0.00">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#67737d3b" height="32.0" layoutX="28.0" layoutY="364.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

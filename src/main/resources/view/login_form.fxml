@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="465.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LoginFormController">
+    <children>
+        <ImageView fitHeight="473.0" fitWidth="649.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/pexels-ksenia-chernaya-3965551.jpg" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#ffffff92" height="335.0" layoutX="256.0" layoutY="38.0" stroke="#e8e1e1" strokeType="INSIDE" width="341.0" />
+        <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#672411" height="31.0" layoutX="338.0" layoutY="64.0" stroke="BLACK" strokeType="INSIDE" width="171.0" />
+        <Text fill="WHITE" layoutX="372.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify Store">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <JFXTextField layoutX="347.0" layoutY="130.0" unFocusColor="#5e3434" />
+        <Text layoutX="352.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name*">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Text>
+        <JFXTextField layoutX="348.0" layoutY="176.0" unFocusColor="#5e3434" />
+        <Text layoutX="353.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password*">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Text>
+        <Text layoutX="352.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgotton Password ?">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="461.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="16.0" fitWidth="18.0" layoutX="461.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/eye.png" />
+            </image>
+        </ImageView>
+        <JFXButton layoutX="363.0" layoutY="241.0" onAction="#btnLoginOnAction" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: #672411;" text=" Log in" textFill="#fff4f4">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </JFXButton>
+        <JFXButton layoutX="364.0" layoutY="279.0" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: #672411;" text="Sign up" textFill="#fff4f4">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>

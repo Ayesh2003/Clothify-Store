@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.EmploeeFormController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="471.0" fitWidth="684.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pexels-ksenia-chernaya-3965551.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#ffffff92" height="427.0" layoutX="50.0" layoutY="8.0" stroke="#e8e1e1" strokeType="INSIDE" width="585.0" />
+                  <JFXTextField layoutX="198.0" layoutY="111.0" promptText="EMP-0007" unFocusColor="#5e3434" />
+                  <Text layoutX="96.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Emploee ID*  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField layoutX="159.0" layoutY="145.0" promptText="name" unFocusColor="#5e3434" />
+                  <Text layoutX="95.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name*  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="320.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="97.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="96.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="356.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="357.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Brach  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="357.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Number  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="356.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth  :">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField layoutX="441.0" layoutY="111.0" promptText="    YY-MM-DD" unFocusColor="BLACK">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField layoutX="162.0" layoutY="212.0" promptText="Address" unFocusColor="#020202" />
+                  <JFXTextField layoutX="498.0" layoutY="180.0" prefHeight="25.0" prefWidth="119.0" promptText="XXXXXXXXXXXX" unFocusColor="#020202" />
+                  <JFXTextField layoutX="415.0" layoutY="145.0" promptText="Contact" unFocusColor="#020202" />
+                  <JFXTextField layoutX="137.0" layoutY="180.0" promptText="National idintity Number" unFocusColor="#020202" />
+                  <JFXButton layoutX="390.0" layoutY="256.0" style="-fx-background-color: #672411;" text="Print" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="514.0" layoutY="256.0" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #672411;" text="Save" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="450.0" layoutY="256.0" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: #672411;" text="clear" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="92.0" layoutY="47.0" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #672411;" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXTextField layoutX="436.0" layoutY="212.0" promptText="Branch" unFocusColor="#020202" />
+                  <Rectangle arcHeight="44.0" arcWidth="50.0" fill="WHITE" height="143.0" layoutX="50.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="585.0" />
+                  <Rectangle arcHeight="43.0" arcWidth="40.0" fill="#672411" height="31.0" layoutX="50.0" layoutY="293.0" stroke="BLACK" strokeType="INSIDE" width="585.0" />
+                  <Text fill="WHITE" layoutX="78.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID     Title      Name      NIC     DOB     Contact     Bank Account Number    Bank branch    Options        ">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#040404" layoutX="58.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" EMP-001    Mr.       Ayesh    200330212334   10/28/2003    0740141177                 Samoath                               Wadduwa           ">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Text>
+                  <JFXButton layoutX="565.0" layoutY="338.0" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #672411;" text="Delete" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="31.0" fitWidth="24.0" layoutX="94.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/back.png" />
+         </image>
+      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ClothifyStoreFormController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="466.0" fitWidth="678.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pexels-ksenia-chernaya-3965551.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="199.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fffefe" layoutX="455.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="40.529296875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="320.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#869aac21" height="402.0" layoutX="22.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="247.0" />
+                  <Text fill="WHITE" layoutX="87.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <JFXButton layoutX="34.0" layoutY="127.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="  Order">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="35.0" layoutY="168.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="Item">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="35.0" layoutY="208.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="        Employer">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="35.0" layoutY="250.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="       Suppliers">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="35.0" layoutY="292.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="             Order Details">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="35.0" layoutY="335.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="             Sales Returns">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="35.0" layoutY="377.0" prefHeight="31.0" prefWidth="222.0" style="-fx-background-color: white;" text="            Sales Reports">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#672411" height="38.0" layoutX="49.0" layoutY="56.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+                  <Text fill="WHITE" layoutX="69.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify Store">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <JFXButton layoutX="432.0" layoutY="419.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #672411;" text="    Log Out" textFill="WHITE" />
+                  <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="439.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Downloads/logout.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="359.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pie-chart.png" />
+                     </image>
+                  </ImageView>
+                  <Circle fill="#7fe522" layoutX="351.0" layoutY="343.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="DODGERBLUE" layoutX="422.0" layoutY="343.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#aa1fff" layoutX="482.0" layoutY="343.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#5aa8f2" layoutX="551.0" layoutY="343.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                  <ImageView fitHeight="31.0" fitWidth="22.0" layoutX="87.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="87.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/file.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="88.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/return-box.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="89.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/expand.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="89.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/google-docs.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#fffefe" layoutX="369.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mens">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fffefe" layoutX="439.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kids">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fffefe" layoutX="565.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Womens">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fffefe" layoutX="495.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="jewlary">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="31.0" fitWidth="25.0" layoutX="89.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/group.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="31.0" fitWidth="25.0" layoutX="89.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/curved-arrow.png" />
+                     </image>
+                  </ImageView>
+                  <PieChart layoutX="213.0" layoutY="-42.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
